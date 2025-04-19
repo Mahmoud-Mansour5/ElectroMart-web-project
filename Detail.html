@@ -171,7 +171,7 @@
       btn.textContent = desc.classList.contains('show') ? 'Hide Details' : 'Details';
     }
 
-    // تحديث عداد السلة
+    // تحديث عداد السلة1
     document.addEventListener('DOMContentLoaded', function() {
       const cart = JSON.parse(localStorage.getItem('cart')) || [];
       const count = cart.reduce((total, item) => total + item.quantity, 0);
